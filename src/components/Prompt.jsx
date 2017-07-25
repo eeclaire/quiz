@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Prompt = React.createClass({
+class Prompt extends Component {
     render() {
         return(
             <div>
@@ -8,6 +8,6 @@ const Prompt = React.createClass({
             </div>
         )
     }
-})
+}
 
 export default Prompt;

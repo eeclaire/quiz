@@ -1,16 +1,29 @@
 const questionList = [
     {
         "prompt": "Pick a shiba inu",
-        "img1": "http://i.imgur.com/ziT2QwG.jpg",
-        "img2": "http://i.imgur.com/b62QEWI.jpg",
+        "ans1": {
+            "img": "http://i.imgur.com/ziT2QwG.jpg",
+            "caption": "hidden shibe"
+        },
+        "ans2": {
+            "img": "http://i.imgur.com/b62QEWI.jpg",
+            "caption": "forlorn shibe"
+        },
         "id":1
     },
     {
         "prompt": "Which Smash character is your main?",
-        "img1": "http://i.imgur.com/6GW6nKX.png",
-        "img2": "http://i.imgur.com/ymyoq37.png",
-        "id": 2
+        "ans1": {
+            "img": "http://i.imgur.com/6GW6nKX.png",
+            "caption": "Gannondorf"
+        },
+        "ans2": {
+            "img": "http://i.imgur.com/ymyoq37.png",
+            "caption": "Peach"
+        },
+        "id":2
     }
 ];
+
 
 export default questionList;

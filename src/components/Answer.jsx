@@ -1,17 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import '../css/components/answer.css'
 
-const Answer = React.createClass({
+class Answer extends Component {
     render() {
         return(
-            <div>
+            <div className="answer">
                 <img src={this.props.image} />
+                <p>{this.props.caption}</p>
             </div>
         )
     }
-})
-
-//<img src={require(`${this.props.image}`)} />
+}
 
 export default Answer;
