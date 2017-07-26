@@ -10,7 +10,12 @@ class App extends Component {
   render() {
     const questions = questionList.map(question => {
       return (
-        <Question key={question.id} answer1={question.ans1} answer2={question.ans2} prompt={question.prompt} />
+        <Question key={question.id} 
+                  answer1={question.ans1} 
+                  answer2={question.ans2}
+                  answer3={question.ans3}
+                  answer4={question.ans4} 
+                  prompt={question.prompt} />
       )
     });
     return (

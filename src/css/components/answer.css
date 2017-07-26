@@ -1,4 +1,9 @@
+.answer {
+    display:inline-block;
+    width:40%;
+}
+
 img{
     width:100%;
-    max-width:35%;
+    max-width:80%;
 }

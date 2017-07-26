@@ -9,6 +9,14 @@ const questionList = [
             "img": "http://i.imgur.com/b62QEWI.jpg",
             "caption": "forlorn shibe"
         },
+        "ans3": {
+            "img": "http://i.imgur.com/2tNFwvb.jpg",
+            "caption": "sleepy shibe"
+        },
+        "ans4": {
+            "img": "http://i.imgur.com/QtBTHEQ.jpg",
+            "caption": "shopkeep shibe"
+        },
         "id":1
     },
     {
@@ -20,6 +28,14 @@ const questionList = [
         "ans2": {
             "img": "http://i.imgur.com/ymyoq37.png",
             "caption": "Peach"
+        },
+        "ans3": {
+            "img": "http://i.imgur.com/rh3cuiK.png",
+            "caption": "Pikachu"
+        },
+        "ans4": {
+            "img": "http://i.imgur.com/R2HNjGf.png",
+            "caption": "Star Fox"
         },
         "id":2
     }
