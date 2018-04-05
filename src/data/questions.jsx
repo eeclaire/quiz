@@ -20,7 +20,7 @@ const questionList = [
         "id":1
     },
     {
-        "prompt": "Which Smash character is your main?",
+        "prompt": "Choose your fighter",
         "ans1": {
             "img": "http://i.imgur.com/6GW6nKX.png",
             "caption": "Gannondorf"
